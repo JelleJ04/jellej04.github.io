@@ -1,0 +1,107 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #615555;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 left;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #333;
+  color: white;
+  margin: 0 auto;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  background-color: #615555;
+}
+
+img {
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+  width: 500px;
+}
+
+.ICT {
+  color: black;
+}
+
+.profiel {
+  background-color: white;
+}
+
+.fitness {
+  border-radius: 10px;
+  margin-left: 0;
+  margin-right: auto;
+  width: 500px;
+}
