@@ -32,7 +32,7 @@ body {
   text-align: center;
   font-size: 18px;
   background-color: lightblue;
-  
+
 }
 
 .container {
@@ -164,11 +164,15 @@ article {
   border-width: 0;
   color: gray;
   background-color: gray;
-  
+
 }
 
 a.highlight {
   background-color: #969696;
   color: #001932;
+  font-weight: bold;
+}
+
+.vragen {
   font-weight: bold;
 }
