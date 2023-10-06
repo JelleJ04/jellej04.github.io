@@ -166,3 +166,9 @@ article {
   background-color: gray;
   
 }
+
+a.highlight {
+  background-color: #969696;
+  color: #001932;
+  font-weight: bold;
+}
